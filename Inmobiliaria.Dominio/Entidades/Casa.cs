@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Inmobiliaria.Dominio.Entidades
 {
     public class Casa : Propiedad
     {
+        public Boolean TienePatio { get; private set; }
+
+        public override Int32 Precio { get => TienePatio ? PrecioBase + 10000 : PrecioBase; }
     }
 }

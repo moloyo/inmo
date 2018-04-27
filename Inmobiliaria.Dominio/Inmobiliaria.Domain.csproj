@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Entidades\Casa.cs" />
     <Compile Include="Entidades\Departamento.cs" />
+    <Compile Include="Entidades\Entity.cs" />
     <Compile Include="Entidades\Propiedad.cs" />
     <Compile Include="Entidades\Propietario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

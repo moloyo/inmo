@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Inmobiliaria.Dominio.Entidades
 {
-    public class Propietario
+    public class Propietario : Entity
     {
+        public String Nombre { get; private set; }
+
+        public String Apellido { get; private set; }
+
+        public String Telefono { get; private set; }
     }
 }
