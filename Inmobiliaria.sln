@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmobiliaria.WPF", "Inmobil
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Inmobiliaria.Data", "Inmobiliaria.Data\Inmobiliaria.Data.sqlproj", "{FFCE89DF-C813-466D-9EF4-FB84292603F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmobiliaria.DataAccess", "Data.Access\Inmobiliaria.DataAccess.csproj", "{5BFAFBDE-5479-4AA4-919E-4B4786A311B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inmobiliaria.Service", "Inmobiliaria.Service\Inmobiliaria.Service.csproj", "{80DDB32F-3AE6-4943-B15D-CDB6C76A85A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{FFCE89DF-C813-466D-9EF4-FB84292603F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFCE89DF-C813-466D-9EF4-FB84292603F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FFCE89DF-C813-466D-9EF4-FB84292603F0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5BFAFBDE-5479-4AA4-919E-4B4786A311B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFAFBDE-5479-4AA4-919E-4B4786A311B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFAFBDE-5479-4AA4-919E-4B4786A311B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFAFBDE-5479-4AA4-919E-4B4786A311B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DDB32F-3AE6-4943-B15D-CDB6C76A85A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DDB32F-3AE6-4943-B15D-CDB6C76A85A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DDB32F-3AE6-4943-B15D-CDB6C76A85A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DDB32F-3AE6-4943-B15D-CDB6C76A85A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
